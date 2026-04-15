@@ -102,7 +102,7 @@ class Converter
 
         foreach ($cidMap as $contentId => $dataUri) {
             $html = str_replace(
-                ["cid:$contentId", "cid:<$contentId>"],
+                ["cid:$contentId", "cid:<$contentId>", "cid:&lt;$contentId&gt;"],
                 $dataUri,
                 $html
             );
