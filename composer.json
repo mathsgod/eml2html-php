@@ -1,0 +1,30 @@
+{
+    "name": "mathsgod/eml2html",
+    "description": "Convert EML files to self-contained HTML with base64-embedded inline images",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Raymond Chong",
+            "email": "mathsgod@yahoo.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "php-mime-mail-parser/php-mime-mail-parser": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Eml2Html\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Eml2Html\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0 || ^10.0"
+    }
+}
+
