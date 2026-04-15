@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "php": ">=7.4",
+        "php": ">=8.0",
         "php-mime-mail-parser/php-mime-mail-parser": "^9.0"
     },
     "autoload": {
