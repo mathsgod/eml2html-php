@@ -4,7 +4,7 @@ A PHP library to convert EML files into self-contained HTML, with all inline ima
 
 ## Requirements
 
-- PHP 7.4+
+- PHP 8.0+
 - [`ext-mailparse`](https://www.php.net/manual/en/book.mailparse.php) (`pecl install mailparse`)
 
 ## Installation
